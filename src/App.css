@@ -1,38 +1,88 @@
-.App {
-  text-align: center;
+body{
+    font-family: 'Oswald', sans-serif;
+}
+.center{
+    background-color: rgb(30, 30, 34);
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: black;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.flex-ul{
+    display: flex;
+    justify-content: right;
+    justify-content: space-around;
+}
+ul{
+    list-style-type: none;
+}
+.link{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+.link:hover{
+    color: rgb(73, 160, 160)
+    
+}
+.show{
+    display: block;
+    opacity: 1;
+}
+.hide{
+    display: none;
+    opacity: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.flex-ul2 li button{
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 2px;
+    background-color: rosybrown;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+.active-btn{
+    background-color: rgb(60, 89, 128) !important;
+    color: white;
+}
+.link2{
+    background-color: rgb(60, 89, 128);
+    padding: 5px 10px;
+    border-radius: 0.2rem;
+}
+.flex-ul2{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    padding: 5px;
+    background-color: blue;
+}
+.ul3 li button{
+    background-color: black;
+    color: white;
+    cursor: pointer;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/*Home*/
+.text-center{
+    text-align: center;
+}
+.logo{
+    position: absolute;
+    width: 10%;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/*Footer*/
+.info{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 1rem;
 }
