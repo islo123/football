@@ -3,8 +3,8 @@ import React from "react"
 
 const Players = function (){
     return (
-        <div>
-            Players
+        <div className="coming-soon">
+            Coming soon
         </div>
     )
 }

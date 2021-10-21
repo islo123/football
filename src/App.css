@@ -24,19 +24,13 @@ ul{
     text-decoration: none;
     font-size: 1.5rem;
     text-transform: uppercase;
+
 }
 .link:hover{
     color: rgb(73, 160, 160)
     
 }
-.show{
-    display: block;
-    opacity: 1;
-}
-.hide{
-    display: none;
-    opacity: 0;
-}
+
 
 .flex-ul2 li button{
     margin: 1rem;
@@ -48,10 +42,7 @@ ul{
     font-size: 20px;
     cursor: pointer;
 }
-.active-btn{
-    background-color: rgb(60, 89, 128) !important;
-    color: white;
-}
+
 .link2{
     background-color: rgb(60, 89, 128);
     padding: 5px 10px;
@@ -62,12 +53,13 @@ ul{
     justify-content: center;
     margin: 5px;
     padding: 5px;
-    background-color: blue;
+    
 }
 .ul3 li button{
     background-color: black;
     color: white;
     cursor: pointer;
+
 }
 
 /*Home*/
@@ -85,4 +77,205 @@ ul{
     background-color: black;
     color: white;
     padding: 1rem;
+}
+
+
+/*About us*/
+
+.form-center{
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+    padding: 2rem;
+    background-color: #f2f2f2;
+   
+}
+
+.form-center input{
+    width: 40rem;
+    padding: 0.5rem;
+    border-radius: 3px;
+}
+.form-center textarea{
+    width: 40rem;
+    height: 10rem;
+    padding: 0.5rem;
+}
+.form-center button{
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+.form-center p{
+    text-align: center;
+    background-color: #4CAF50;
+}
+
+/*Services*/
+
+.services-flex{
+    display: flex;
+    justify-content: center;
+    height:50ex;
+    margin-top: 4rem;
+}
+.services-flex h3{
+    color: #008CBA;
+}
+.services-div{
+    
+    max-width: 500px;
+    max-height: 200px;
+
+}
+.services-div img{
+    width:  100%;
+    height: 100%;
+    object-fit: cover;
+   
+}
+.services-single-div{
+    display: flex;
+    align-items: flex-end;
+    justify-content: right;
+    width: 100%;
+    height: 100%;
+    background-color: #555555;
+    
+}
+.services-single-div p{
+    padding: 1rem;
+    color: white;
+}
+.menu-btn{
+    display: none;
+}
+.coming-soon{
+   
+    text-align: center;
+    background-color: #008CBA;
+    color: white;
+    margin: 1rem;
+}
+.center2{
+    display: block;
+    background-color: rgb(30, 30, 34);
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: black;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+/*Puhelin*/
+
+@media only screen and (max-width: 1000px) {
+        /*Header*/
+        .text-center{
+            margin-top: 6rem;
+        }
+        .menu-btn{
+            display: flex;
+            justify-content: right;
+        }
+        .menu-btn button{
+            border:none;
+            background-color: transparent;
+            font-size: 3rem;
+            
+        }
+        .center{
+            display: none;
+            
+            
+        }
+        .center2{
+            display: block;
+        }
+        .logo{
+            width: 20%;
+        }
+        .flex-ul{
+            display: block;
+            background-color: #cfe2f3 ;
+            margin-top: 5rem;
+            padding: 2rem;
+        }
+        .link{
+            color: black;
+        }
+        .link2{
+            background-color: #e7e7e7;
+            padding-left: 0;
+            margin-left: 0;
+        }
+        /*About us*/
+        .form-center{
+            margin-top: 3rem;
+            margin-bottom: 5px;
+            padding: 5px;
+            border-radius: 0.5rem;
+        }
+        .form-center input{
+            width: 10rem;
+            padding: 0.5rem;
+            border-radius: 3px;
+        }
+        .form-center textarea{
+            width: 10rem;
+            height: 5rem;
+            padding: 0.5rem;
+        }
+        .form-center button{
+            background-color: #008CBA;
+            color: white;
+            border: none;
+            padding: 0.5rem;
+            margin-top: 0.5rem;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+        /*Services*/
+        .services-flex{
+            display: block;
+            height:150ex;
+            margin-top: 4rem;
+        }
+      
+        .services-div{
+            
+            max-width: 100%;
+            max-height: 100%;
+        
+        }
+        .services-div img{
+            width:  100%;
+            height: 100%;
+            object-fit: cover;
+           
+        }
+        .services-single-div{
+            display: block;
+            width: 100%;
+            height: 100%;
+            background-color: #555555;
+            
+        }
+        
+
+  }
+  @media only screen and (min-width: 800px){
+      .logo{
+          width: 10%;
+      }
+  }
+  @media only screen and (max-height: 700px){
+    .services-flex{
+     
+        height:100ex;
+      
+    }
 }
