@@ -9,12 +9,14 @@ const Navbar = function (){
     const [show, setShow] = useState(true)
 
     return (
-        <div>
+        <div >
+            <div className="flex-header">
             <div>
                 <img className="logo" src={image} alt="logo"/>
             </div>         
             <div className="menu-btn">
                 {show? <button onClick={function (){return setShow(false)}} className="show-btn"><GiHamburgerMenu/></button> : <button onClick={function (){return setShow(true)}} className="hide-btn"><AiFillCloseCircle/></button>}
+            </div>
             </div>
             <div className={show?"center": "center2"}>
                 <ul className="flex-ul">
