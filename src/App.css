@@ -1,4 +1,4 @@
-body{
+/*body{
     font-family: 'Oswald', sans-serif;
 }
 .center{
@@ -62,7 +62,7 @@ ul{
 
 }
 
-/*Home*/
+Home
 .text-center{
     text-align: center;
 }
@@ -71,7 +71,7 @@ ul{
     width: 10%;
 }
 
-/*Footer*/
+Footer
 .info{
     text-align: center;
     background-color: black;
@@ -80,7 +80,7 @@ ul{
 }
 
 
-/*About us*/
+About us
 
 .form-center{
     display: flex;
@@ -115,7 +115,7 @@ ul{
     background-color: #4CAF50;
 }
 
-/*Services*/
+Services
 
 .services-flex{
     display: flex;
@@ -170,10 +170,10 @@ ul{
     padding: 1rem;
     border-radius: 0.5rem;
 }
-/*Puhelin*/
+Puhelin
 
 @media only screen and (max-width: 1000px) {
-        /*Header*/
+        Header
         .text-center{
             margin-top: 6rem;
         }
@@ -214,7 +214,7 @@ ul{
             padding-left: 0;
             margin-left: 0;
         }
-        /*About us*/
+        About us
         .form-center{
             margin-top: 3rem;
             margin-bottom: 5px;
@@ -240,7 +240,7 @@ ul{
             font-size: 1rem;
             cursor: pointer;
         }
-        /*Services*/
+        Services
         .services-flex{
             display: block;
             height:150ex;
@@ -274,3 +274,8 @@ ul{
           width: 10%;
       }
   }
+*/
+/*Puhelin*/
+.logo{
+    width: 10%;
+}
