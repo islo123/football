@@ -273,10 +273,3 @@ ul{
           width: 10%;
       }
   }
-  @media only screen and (max-height: 700px){
-    .services-flex{
-     
-        height:100ex;
-      
-    }
-}
