@@ -175,7 +175,7 @@ ul{
 @media only screen and (max-width: 1000px) {
         /*Header*/
         body{
-            background-color:#008CBA ;
+            background-color:black ;
             color: white;
         }
         .icon-color{
