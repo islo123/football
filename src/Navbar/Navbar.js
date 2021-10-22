@@ -14,7 +14,7 @@ const Navbar = function (){
                 <img className="logo" src={image} alt="logo"/>
             </div>         
             <div className="menu-btn">
-                {show? <button onClick={function (){return setShow(false)}} className="show-btn"><GiHamburgerMenu/></button> : <button onClick={function (){return setShow(true)}} className="hide-btn"><AiFillCloseCircle/></button>}
+                {show? <button onClick={function (){return setShow(false)}} className="show-btn"><GiHamburgerMenu className="icon-color"/></button> : <button onClick={function (){return setShow(true)}} className="hide-btn"><AiFillCloseCircle className="icon-color"/></button>}
             </div>
             <div className={show?"center": "center2"}>
                 <ul className="flex-ul">

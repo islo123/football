@@ -174,11 +174,23 @@ ul{
 
 @media only screen and (max-width: 1000px) {
         /*Header*/
+        body{
+            background-color:#008CBA ;
+            color: white;
+        }
+        .icon-color{
+            color: white;
+        }
+        .contact-form label{
+            color: black !important;
+        }
+
         .text-center{
             margin-top: 6rem;
         }
         .menu-btn{
             display: flex;
+            flex-direction: row-reverse;
             justify-content: right;
         }
         .menu-btn button{
