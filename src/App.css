@@ -189,7 +189,8 @@ ul{
         }
         .center{
             display: none;
-            
+            max-width: none;
+
             
         }
         .center2{
