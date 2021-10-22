@@ -1,4 +1,4 @@
-/*body{
+body{
     font-family: 'Oswald', sans-serif;
 }
 .center{
@@ -62,7 +62,7 @@ ul{
 
 }
 
-Home
+/*Home*/
 .text-center{
     text-align: center;
 }
@@ -71,7 +71,7 @@ Home
     width: 10%;
 }
 
-Footer
+/*Footer*/
 .info{
     text-align: center;
     background-color: black;
@@ -80,7 +80,7 @@ Footer
 }
 
 
-About us
+/*About us*/
 
 .form-center{
     display: flex;
@@ -115,7 +115,7 @@ About us
     background-color: #4CAF50;
 }
 
-Services
+/*Services*/
 
 .services-flex{
     display: flex;
@@ -170,17 +170,16 @@ Services
     padding: 1rem;
     border-radius: 0.5rem;
 }
-Puhelin
+/*Puhelin*/
 
 @media only screen and (max-width: 1000px) {
-        Header
+        /*Header*/
         .text-center{
             margin-top: 6rem;
         }
-  
-        .flex-header{
+        .menu-btn{
             display: flex;
-            justify-content: space-between;
+            justify-content: right;
         }
         .menu-btn button{
             border:none;
@@ -190,8 +189,7 @@ Puhelin
         }
         .center{
             display: none;
-            max-width: none;
-
+            
             
         }
         .center2{
@@ -214,7 +212,7 @@ Puhelin
             padding-left: 0;
             margin-left: 0;
         }
-        About us
+        /*About us*/
         .form-center{
             margin-top: 3rem;
             margin-bottom: 5px;
@@ -240,7 +238,7 @@ Puhelin
             font-size: 1rem;
             cursor: pointer;
         }
-        Services
+        /*Services*/
         .services-flex{
             display: block;
             height:150ex;
@@ -274,8 +272,3 @@ Puhelin
           width: 10%;
       }
   }
-*/
-/*Puhelin*/
-.logo{
-    width: 10%;
-}
