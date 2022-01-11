@@ -4,7 +4,7 @@ import React from "react"
 const Home = function (){
     return (
         <div className="text-center">
-            <h3> AZVA Football Agency and Consulting, founded in Finland, by Valdrin Azemi</h3>
+            <h3> AZVA Football Agency and Consulting</h3>
             <p>Who is professional football player, with experience in Finland, Slovenia, Germany, Sweden, Kosovo and Spain.</p>
             <p>His knowledge of football and connections around the world is why he started his football agency in such a early time during his own career.
             <br/> 
